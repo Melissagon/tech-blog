@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coding-boot-camp/module-14-project-mvc.git"
+    "url": "git+https://github.com/melissagon/tech-blog.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coding-boot-camp/module-14-project-mvc/issues"
+    "url": "https://github.com/melissagon/tech-blog/issues"
   },
-  "homepage": "https://github.com/coding-boot-camp/module-14-project-mvc#readme",
+  "homepage": "https://github.com/melissagon/tech-blog#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^6.1.1",
