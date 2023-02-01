@@ -1,4 +1,4 @@
-const signupFormHandler = async function(event) {
+const signupHandler = async function(event) {
   event.preventDefault();
 
   const usernameEl = document.querySelector('#username-input-signup');
@@ -16,10 +16,10 @@ const signupFormHandler = async function(event) {
   if (response.ok) {
     document.location.replace('/dashboard');
   } else {
-    alert('Failed to sign up');
+    alert('Uh Oh! Something went wrong. Try again!');
   }
 };
 
 document
   .querySelector('#signup-form')
-  .addEventListener('submit', signupFormHandler);
+  .addEventListener('submit', signupHandler);

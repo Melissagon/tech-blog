@@ -1,4 +1,4 @@
-const loginFormHandler = async function(event) {
+const loginHandler = async function (event) {
   event.preventDefault();
 
   const usernameEl = document.querySelector('#username-input-login');
@@ -16,10 +16,10 @@ const loginFormHandler = async function(event) {
   if (response.ok) {
     document.location.replace('/dashboard');
   } else {
-    alert('Failed to login');
+    alert('Uh Oh! Something went wrong. Try again!');
   }
 };
 
 document
   .querySelector('#login-form')
-  .addEventListener('submit', loginFormHandler);
+  .addEventListener('submit', loginHandler);
